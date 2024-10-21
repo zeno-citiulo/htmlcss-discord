@@ -31,6 +31,7 @@ header{
 .col{
   padding: 0 10px;
   color: white;
+  display: inline-block;
 }
 
 .col-lato-dx{
@@ -38,6 +39,7 @@ header{
   color: black;
   background-color: white;
   border-radius: 40px;
+  display: inline-block;
 }
 
 .col-lato-dx:hover{
