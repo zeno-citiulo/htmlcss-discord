@@ -19,31 +19,40 @@ header{
 }
 
 .container{
-  width: 70%;
-  max-width: 1100px;
+  display: inline-block;
   margin: 0 auto;
 }
 
 .row{
-  display: flex;
-  background-color: brown;
-  border: 2px dashed black;
   margin-bottom: 15px;
+  
 }
 
 .col{
   padding: 0 10px;
+  color: white;
+}
+
+.col-lato-dx{
+  padding: 10px 10px;
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.col-lato-dx:hover{
+  background-color: rgba(255, 255, 255, 0.500);
 }
 
 header .container{
   height: 100%;
   padding-top: 15px;
+  text-align: center;
+  width: 100%;
 }
 
 header .navbar .row{
   height: 50px;
-  align-items: center;
-  justify-content: space-between;
 }
 
 header nav ul{
@@ -53,9 +62,13 @@ header nav ul{
 
 header nav ul a{
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 0 10px;
   padding: 5px 10px;
+}
+
+header nav ul a:hover{
+  text-decoration: underline;
 }
 
 .header-bot{
@@ -73,18 +86,34 @@ header nav ul a{
 }
 
 .row-bot{
-  background-color: pink;
-  min-height: 400px;
+  min-height: 450px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed black;
+  color: white;
+  flex-direction: column;
 }
 
-p{
+.call-to-action{
+  text-align: center;
+  font-size: 2rem;
+}
+
+h1{
+  margin-bottom: 15px;
+}
+
+.text-header{
   text-align: center;
 }
+
+.header-bot .container-bot .text-button{
+  text-align: center;
+  margin-top: 15px;
+}
+
+
 
 /************************* MAIN ****************************/
 
@@ -111,12 +140,15 @@ p{
     color: white;
     text-align: center;
     min-height: 400px;
-    border: 2px dashed black;
+}
+
+.dx-img{
+  max-width: 100%;
+  height: auto;
 }
 
 .box-dx {
-    background-color: #3498db;
-    width: 60%; 
+  width: 60%; 
 }
 
 .box-sx {
