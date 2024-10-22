@@ -74,6 +74,7 @@ header nav ul a:hover{
   background-image: url(/img/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   padding-top: 25px;
   padding-bottom: 25px;
   min-height: 100px;
@@ -99,7 +100,7 @@ header nav ul a:hover{
 .titolo{
   font-size: 3rem;
   padding-bottom: 35px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .testo-header{
@@ -284,9 +285,26 @@ header nav ul a:hover{
 }
 
 .left {
-  background-color: #e57373;
   flex: 1;
-  border: 2px dashed black;
+  color: #7589D8;
+  padding-top: 30px;
+  font-size: 1.2rem;
+}
+
+.footer-it{
+  color: white;
+  padding-top: 20px;
+  font-size: 0.9rem;
+}
+
+.footer-it::before{
+  content: url(/img/ita.png);
+  padding-right: 3px;
+}
+
+.footer-it::after{
+  content: '\2228';
+  padding-left: 3px;
 }
 
 .right {
